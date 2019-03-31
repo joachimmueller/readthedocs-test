@@ -5,8 +5,7 @@ Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
-   :caption: UVP-Editor
+   :caption: UVP-Editor Allgemeines
 
    uvp-editor/allgemeine-informationen
    uvp-editor/registrierung-anmeldung
@@ -14,14 +13,12 @@ Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: UVP-Portal Nutzerverwaltung
 
    uvp-nutzerverwaltung/index
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Erfassung von UVP-Verfahren
 
    uvp-verfahren/erfassung-uvp-verfahren
