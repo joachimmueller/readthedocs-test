@@ -49,8 +49,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'readthedocs-test'
-copyright = '2019, jm'
+project = 'UVP-Portal - Bedienungsanleitung'
+copyright = '2019, wemove'
 author = 'jm'
 
 # The version info for the project you're documenting, acts as replacement for

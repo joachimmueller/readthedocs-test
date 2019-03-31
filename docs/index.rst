@@ -1,4 +1,4 @@
-UVP-Portal - Erfassungsanleitung
+UVP-Portal - Bedienungsanleitung
 ============================================
 
 Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
@@ -30,11 +30,4 @@ Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
    uvp-verfahren/hilfe-erfassung
    uvp-verfahren/bebauungsplandaten
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
