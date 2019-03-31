@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# readthedocs-test documentation build configuration file, created by
+# docs-uvp-verbund documentation build configuration file, created by
 # sphinx-quickstart on Sun Mar 31 13:24:20 2019.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'UVP-Portal - Bedienungsanleitung'
+project = 'UVP-Verbund - Bedienungsanleitung'
 copyright = '2019-{}, wemove'.format(
     datetime.datetime.now().year
 )
@@ -207,7 +207,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'uvp-portal-bedienungsanleitung'
+htmlhelp_basename = 'uvp-verbund-bedienungsanleitung'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -229,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'uvp-portal-bedienungsanleitung.tex', 'UVP-Portal - Bedienungsanleitung',
+    ('index', 'uvp-verbund-bedienungsanleitung.tex', 'UVP-Verbund - Bedienungsanleitung',
      u'Joachim Müller', 'manual'),
 ]
 
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'uvp-portal-bedienungsanleitung', 'UVP-Portal - Bedienungsanleitungn',
+    (master_doc, 'uvp-verbund-bedienungsanleitung', 'UVP-Verbund - Bedienungsanleitungn',
      [author], 1)
 ]
 
@@ -273,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'uvp-portal-bedienungsanleitung', 'UVP-Portal - Bedienungsanleitung',
-     author, 'uvp-portal-bedienungsanleitung', 'One line description of project.',
+    (master_doc, 'uvp-verbund-bedienungsanleitung', 'UVP-Verbund - Bedienungsanleitung',
+     author, 'uvp-verbund-bedienungsanleitung', 'One line description of project.',
      'Miscellaneous'),
 ]
 

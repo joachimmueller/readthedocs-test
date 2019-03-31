@@ -1,4 +1,4 @@
-UVP-Portal - Bedienungsanleitung
+UVP-Verbund - Bedienungsanleitung
 =================================
 
 Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
@@ -13,7 +13,7 @@ Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
 
 .. toctree::
    :maxdepth: 2
-   :caption: UVP-Portal Nutzerverwaltung
+   :caption: UVP-Verbund Nutzerverwaltung
 
    uvp-nutzerverwaltung/index
 
