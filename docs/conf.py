@@ -16,6 +16,8 @@
 import sys
 import os
 
+import datetime
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -50,7 +52,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'UVP-Portal - Bedienungsanleitung'
-copyright = '2019, wemove'
+copyright = '2019-{}, wemove'.format(
+    datetime.datetime.now().year
+)
 author = 'jm'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -203,7 +207,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'readthedocs-testdoc'
+htmlhelp_basename = 'uvp-portal-bedienungsanleitung'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -226,7 +230,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'uvp-portal-bedienungsanleitung.tex', 'UVP-Portal - Bedienungsanleitung',
-     'jm', 'manual'),
+     u'Joachim Müller', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -255,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'readthedocs-test', 'readthedocs-test Documentation',
+    (master_doc, 'uvp-portal-bedienungsanleitung', 'UVP-Portal - Bedienungsanleitungn',
      [author], 1)
 ]
 
@@ -269,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'readthedocs-test', 'readthedocs-test Documentation',
-     author, 'readthedocs-test', 'One line description of project.',
+    (master_doc, 'uvp-portal-bedienungsanleitung', 'UVP-Portal - Bedienungsanleitung',
+     author, 'uvp-portal-bedienungsanleitung', 'One line description of project.',
      'Miscellaneous'),
 ]
 
