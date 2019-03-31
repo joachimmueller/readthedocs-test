@@ -1,16 +1,34 @@
-.. readthedocs-test documentation master file, created by
-   sphinx-quickstart on Sun Mar 31 13:24:20 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to readthedocs-test's documentation!
+UVP-Portal - Erfassungsanleitung
 ============================================
 
-Contents:
+Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
+   :caption: UVP-Editor
 
+   uvp-editor/allgemeine-informationen
+   uvp-editor/registrierung-anmeldung
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: UVP-Portal Nutzerverwaltung
+
+   uvp-nutzerverwaltung/index
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Erfassung von UVP-Verfahren
+
+   uvp-verfahren/erfassung-uvp-verfahren
+   uvp-verfahren/bearbeitung-verfahren-adressen
+   uvp-verfahren/bearbeitung-verfahren-adressen-strukturbaum
+   uvp-verfahren/hilfe-erfassung
+   uvp-verfahren/bebauungsplandaten
 
 
 Indices and tables
