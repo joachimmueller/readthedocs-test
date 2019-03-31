@@ -1,5 +1,5 @@
 UVP-Portal - Bedienungsanleitung
-============================================
+=================================
 
 Allgemeine Hinweise zur Dokumentation... z.B. Erläuterung der 3 Teile.
 
